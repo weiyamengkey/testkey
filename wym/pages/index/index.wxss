@@ -1,0 +1,39 @@
+/* *index.wxss*
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}*/
+
+.wym_box{
+  width: 100%;
+  display: flex;
+  margin-top:10px;
+} 
+.wym_input>input{
+  width: 200px;
+  border: 1px solid;
+  margin-left: 10px;
+}
+.wym_button>button{
+   margin-left: 10px;
+}
+.wym_con{
+  width: 300px;
+  margin-left: 10px;
+  border-bottom: 1px dashed #999;
+}
+button{
+  margin-left: 200px;
+}

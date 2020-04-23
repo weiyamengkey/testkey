@@ -1,0 +1,14 @@
+<!--index.wxml-->
+
+	<view class="wym_box">
+		<view class="wym_input">
+			<input placeholder="请输入内容" bindinput="oninput" value="{{content}}"/>
+		</view>
+		<view class="wym_button">
+			<button size="mini" bindtap="onclick">添加</button>
+		</view>
+	</view>
+  <view class="wym_con" wx:for='{{list}}' wx:key="index">
+       {{item}}
+       <button size="mini" bindtap="remove" data="{{index}}">x</button>
+  </view>
